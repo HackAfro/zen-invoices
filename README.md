@@ -43,3 +43,10 @@ Asides from the components directory, the other existing directories are:
 ## Styling
 
 Styling was done using utility classes provided by [TailwindCSS](https://tailwindcss.com/) and some custom styles. Responsiveness was achieved using a [mobile first approach](https://tailwindcss.com/docs/responsive-design#mobile-first)
+
+
+## Testing
+
+To run available tests, use `yarn test` or `npm test`. Testing was done using the React-testing-library and Jest. 
+
+Unit tests were written for each component in an attempt to ensure that requested functionality was achieved by the component.
