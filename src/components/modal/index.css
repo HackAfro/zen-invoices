@@ -1,0 +1,34 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.dialog {
+  min-height: 350px;
+  border-radius: 3px;
+  top: 15%;
+  left: 30%;
+}
+
+.dialog:focus {
+  border: none;
+}
+
+.scrolling {
+  max-height: 250px;
+  overflow-x: auto;
+  overflow-y: scroll;
+}
+
+@media (max-width: 640px) {
+  .dialog {
+    min-height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    left: 0%;
+    top: unset;
+    bottom: 0;
+  }
+}
